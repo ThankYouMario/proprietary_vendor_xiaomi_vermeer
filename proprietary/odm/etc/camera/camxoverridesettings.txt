@@ -1,21 +1,12 @@
 # N11 setting file
 multiCameraLogicalXMLFile=vermeer.xml
 
-#camera log
-overrideLogLevels=0x0
-logInfoMask=0
-logWarningMask=0
-logConfigMask=0
-logVerboseMask=0
-logCoreCfgMask=0
-logRequestMapping=FALSE
-systemLogEnable=TRUE
-enableAsciiLogging=0
-enableTxtLogging=0
-enableCameraCoreDumpBinary=FALSE
-enableCameraCoreDumpText=FALSE
-raiserecoverysigabrt=FALSE
+enableTxtLogging=1
+offlineLogNumber=15
 offlineLoggerEnableBackupLog=FALSE
+logInfoMask=0x10098
+overrideLogLevels=0x1F
+raiserecoverysigabrt=TRUE
 numConsecutiveRecovery=10
 #For stability
 enableSignal35Tombstone=FALSE
@@ -50,6 +41,7 @@ EnableLowFpsForSATnNight=TRUE
 autoImageDumpCHINodeinputPortMask = 0x0
 
 #SAT
+enableFDFullStreamDimension=FALSE
 enablePostZoomFOV=1
 isPhyicalMultiCameraSupported=TRUE
 multiCameraEnable=TRUE
@@ -266,6 +258,8 @@ EnableRemapISO=TRUE
 
 #Quick Preview Control
 QuickPreviewMask=0x2204
+
+AsyncCreateofflineFeature=true
 
 #Enable earlyPCR
 numPCRsBeforeStreamOn=1
