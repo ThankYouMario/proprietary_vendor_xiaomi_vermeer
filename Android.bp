@@ -4189,7 +4189,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/odm/lib64/com.xiaomi.camhal.overlap.so"],
-			shared_libs: ["liblog", "libsync", "libutils", "libui", "libhidlbase", "libprocessgroup", "com.xiaomi.immunesystem", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libsync", "libutils", "libcutils", "libui", "libhidlbase", "libprocessgroup", "com.xiaomi.immunesystem", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",

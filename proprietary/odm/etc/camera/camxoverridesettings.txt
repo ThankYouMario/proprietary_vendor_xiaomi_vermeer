@@ -172,7 +172,7 @@ bokehFallbackLuxThreshold0=453:413|445:405|453:413|453:413
 #Leica Authentic - uw_in:uw_out|wide_in:wide_out|tele3x_in:tele3x_out|tele5x_in:tele5x_out
 bokehFallbackLuxThreshold1=453:413|445:405|453:413|453:413
 BokehRemosaicLuxGain=95
-SDK_LOG_LEVEL=3
+SDK_LOG_LEVEL=4
 
 #Enable sensor Hw sync triger OIS sync mode
 enableOISHwSyncMode=TRUE
